@@ -1,0 +1,43 @@
+body {
+    width: 960px;
+}
+
+.header {
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.logo {
+    float: left;
+    margin-right: 10px;
+    margin-top: 0px;
+    
+}
+
+.social {
+    float: right;
+    position: relative;
+    margin-top: 0px;
+    right: 10px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 28px;
+    position: relative;
+    top: 0px;
+    line-height: 1px;
+}
+
+h2 {
+    font-size: 12px;
+    width: 300px;
+
+}
+
+.divider {
+    height: 25px;
+    background-image: url(img/hr-img.png);
+    background-repeat: repeat-x;
+}
