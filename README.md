@@ -1,3 +1,4 @@
 # chocolate-pizza
 
-Partner programmers: Josh Merrill and Cait Rowland
+Partner programmers: Josh Merrill and Cait Rowland 
+GO TEAM! 
