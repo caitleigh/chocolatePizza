@@ -1,5 +1,5 @@
 body {
-    width: 960px;
+    width: 899px;
     margin-left: 155px;
     margin-right: 155px;
 }
@@ -41,7 +41,7 @@ h2 {
     width: 300px;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    color: #a8afb6
+    color: #a8afb6;
 }
 
 .divider {
@@ -53,21 +53,23 @@ h2 {
 /* Body Style */
 
 main {
-    margin-left: auto;
-    margin-right: auto;
+    width: 899px;
+    margin: auto;
+    /* margin-left: auto;
+    margin-right: auto;*/
 }
 
 .chocoZaa {
-    width: 80%;
+    width: 100%;
     display: block;
 
 }
 
 p {
-    width: 80%;
     font-family: 'Lora', serif;
-    font-size: 12px;
-    text-indent: 30px
+    font-size: 16px;
+    text-indent: 30px;
+    color: #a8afb6;
 }
 
 h3 {
@@ -82,4 +84,96 @@ h4 {
     line-height: 1px;
     text-transform: uppercase;
     color: #c2c7cc;
+}
+
+.shopping-list {
+    background-image: url(img/list-bg.png);
+    height: 305px;
+    width: 899px;
+    margin-bottom: 40px;
+}
+
+.shopping-left {
+    float: left;
+    padding-left: 100px;
+}
+
+.shopping-right {
+    float: right;
+    padding-right: 160px;
+}
+
+ul {
+    padding-top: 10px;
+}
+li {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22px;
+    line-height: 34px;
+    color: #a8afb6;
+}
+
+span {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22px;
+    line-height: 34px;
+    color: #a8afb6;
+}
+
+.van {
+    float: left;
+}
+
+.button {
+    background-color: #BC715D;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: uppercase;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 0px 2px;
+    cursor: pointer;
+    float: right;
+}
+
+/* .p1 {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    color: #a8afb6;
+    padding-right: 60px;
+} */
+
+.author {
+    padding-bottom: 40px;
+}
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 5px;
+    /* display: inline-block; */
+    text-align: center;
+    margin: auto;
+}
+
+hr.left {
+    border: .5px solid #a8afb6;
+    width: 45%;
+    float: left; 
+    margin-right: 10px;
+}
+
+hr.right {
+    border: .5px solid #a8afb6;
+    width: 45%;
+    float: right; 
+    margin-left: 10px;
+}
+
+.bottom {
+    padding: 10px;
+    opacity: 50%;
+    align-content: center;
 }
