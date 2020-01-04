@@ -45,9 +45,9 @@ h2 {
 }
 
 .divider {
-    height: 25px;
+    height: 10px;
     background-image: url(img/hr-img.png);
-    background-repeat: repeat-x;
+    background-repeat: repeat;
 }
 
 /* Body Style */
@@ -55,8 +55,6 @@ h2 {
 main {
     width: 899px;
     margin: auto;
-    /* margin-left: auto;
-    margin-right: auto;*/
 }
 
 .chocoZaa {
@@ -120,8 +118,15 @@ span {
     color: #a8afb6;
 }
 
+.strikethrough:checked + span {
+    text-decoration: line-through;
+}
+
+/* Footer styles */
+
 .van {
     float: left;
+    padding-right: 10px;
 }
 
 .button {
@@ -132,19 +137,20 @@ span {
     color: white;
     padding: 15px 32px;
     text-align: center;
-    /* display: inline-block; */
     font-size: 16px;
     margin: 0px 2px;
     cursor: pointer;
     float: right;
 }
 
-/* .p1 {
+.p1 {
     font-family: 'Lora', serif;
     font-size: 16px;
     color: #a8afb6;
     padding-right: 60px;
-} */
+    display: inline;
+    text-align: center;
+}
 
 .author {
     padding-bottom: 40px;
@@ -176,4 +182,9 @@ hr.right {
     padding: 10px;
     opacity: 50%;
     align-content: center;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 1px;
 }
