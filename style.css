@@ -57,6 +57,19 @@ main {
     margin: auto;
 }
 
+.blogPost1 {
+    display: inline;
+}
+
+.print {
+    float: right;
+}
+
+.printButton {
+    padding-right: 0;
+    float: right;
+}
+
 .chocoZaa {
     width: 100%;
     display: block;
@@ -108,14 +121,14 @@ li {
     font-family: 'Patrick Hand', cursive;
     font-size: 22px;
     line-height: 34px;
-    color: #a8afb6;
+    color: #786439;
 }
 
 span {
     font-family: 'Patrick Hand', cursive;
     font-size: 22px;
     line-height: 34px;
-    color: #a8afb6;
+    color: #786439;
 }
 
 .strikethrough:checked + span {
@@ -130,7 +143,7 @@ span {
 }
 
 .button {
-    background-color: #BC715D;
+    background-color: #d8613c;
     font-family: 'Oswald', sans-serif;
     text-decoration: uppercase;
     border: none;
